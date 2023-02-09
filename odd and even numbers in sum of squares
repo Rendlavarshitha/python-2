@@ -1,0 +1,17 @@
+def sumsquare(list):
+    odd=0
+    even=0
+    for num in list:
+        if num%2==0:
+            even+=num**2
+        else:
+            odd+=num**2
+    return[odd,even]
+n=int(input("Enter the terms:"))
+if n<=0:
+      print("Enter a positive term")
+for i in range(0,n):
+    x=int(input("Enter"))
+    list1.append(x)
+print(list1)
+print(sumsquare(list))
